@@ -2,4 +2,6 @@
 
 set -e
 
-pkg install -y intel-backlight intel-compute-runtime libva-intel-media-driver
+install_command="pkg install -y"
+
+$install_command intel-backlight intel-compute-runtime libva-intel-media-driver
