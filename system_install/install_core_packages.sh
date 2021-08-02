@@ -8,7 +8,4 @@ install_command="pkg install -y"
 $install_command chromium
 
 # editors
-$install_command vim
-
-# programming
-$install_command git
+$install_command emacs
