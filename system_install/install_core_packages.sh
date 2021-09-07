@@ -8,7 +8,7 @@ install_command="pkg install -y"
 $install_command hack-font
 
 # browser
-$install_command chromium
+$install_command firefox
 
 # editors
 $install_command emacs
