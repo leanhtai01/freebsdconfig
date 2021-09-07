@@ -8,4 +8,5 @@ current_dir=$(dirname $0)
 # install xorg
 $install_command xorg
 
-. $current_dir/install_KDE_Plasma.sh
+# add user to video groups
+pw group mod video -m leanhtai01
