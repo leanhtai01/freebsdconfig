@@ -11,4 +11,4 @@ $install_command hack-font
 $install_command firefox
 
 # editors
-$install_command emacs
+$install_command emacs vim
