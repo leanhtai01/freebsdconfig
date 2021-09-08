@@ -23,7 +23,7 @@ then
 	        . $current_dir/install_KDE_Plasma.sh
 		;;
 	    i3)
-		.$current_dir/install_i3.sh $2
+		. $current_dir/install_i3.sh $2
 		;;
 	esac
     done
