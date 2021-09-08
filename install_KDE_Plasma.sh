@@ -9,3 +9,6 @@ $install_command plasma5-plasma ark dolphin dolphin-plugins konsole okular kdegr
 sysrc dbus_enable=YES
 sysrc hald_enable=YES
 sysrc sddm_enable=YES
+
+# mount /proc
+printf 'proc\t/proc\tprocfs\trw\t0\t0\n' >> /etc/fstab
