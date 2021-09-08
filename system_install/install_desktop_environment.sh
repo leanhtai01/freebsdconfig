@@ -9,7 +9,7 @@ current_dir=$(dirname $0)
 $install_command xorg
 
 # add user to video groups
-pw group mod video -m leanhtai01
+pw group mod video -m $2
 
 if [ ! -z $1 ]
 then
@@ -23,7 +23,7 @@ then
 	        . $current_dir/install_KDE_Plasma.sh
 		;;
 	    i3)
-		.$current_dir/install_i3.sh
+		.$current_dir/install_i3.sh $2
 		;;
 	esac
     done
