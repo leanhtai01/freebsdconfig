@@ -17,7 +17,7 @@ then
     do
 	case $de in
 	    GNOME)
-		printf 'GNOME will be installed!\n'
+	        $current_dir/install_GNOME.sh
 		;;
 	    KDEPlasma)
 	        $current_dir/install_KDE_Plasma.sh
