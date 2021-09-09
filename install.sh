@@ -11,6 +11,6 @@ gpu=
 $current_dir/install_gpu_driver.sh $gpu
 $current_dir/install_core_packages.sh
 $current_dir/configure_git.sh
-$current_dir/configure_emacs.sh
+$current_dir/configure_emacs.sh "$username"
 $current_dir/install_ntfs_tools.sh
 $current_dir/install_desktop_environment.sh "$desktop_environment" "$username"
